@@ -1,0 +1,135 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.header .main-menu nav ul li a:hover {
+  color: red;
+}
+.header .main-menu nav ul li a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.2rem solid red;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+.header .main-menu nav ul li a:hover::after {
+  transform: scaleX(1);
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+  padding: 0 10px;
+  font-size: 0.8rem;
+}
+
+.top-menu .top-left-menu ul,
+.top-menu .top-right-menu ul {
+  display: flex;
+}
+.top-menu .top-left-menu ul li,
+.top-menu .top-right-menu ul li {
+  padding: 0 5px;
+  color: hsla(0, 0%, 40%, 0.85);
+}
+
+.top-menu .top-right-menu ul {
+  align-items: center;
+}
+
+.li-center {
+  border-left: 1px solid hsla(0, 0%, 40%, 0.85);
+  border-right: 1px solid hsla(0, 0%, 40%, 0.85);
+}
+
+.top-menu .top-left-menu ul li a,
+.top-menu .top-right-menu ul li a {
+  color: hsla(0, 0%, 40%, 0.85);
+}
+.icons {
+  width: 15px;
+  stroke-width: 3px;
+  padding: 0 5px;
+  vertical-align: middle;
+}
+.icon-cart {
+  color: red;
+  padding: 0 5px;
+  vertical-align: middle;
+}
+
+.center-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.center-menu .logo {
+  width: 30%;
+}
+.center-menu .logo img {
+  width: 80%;
+}
+
+.center-menu .search-form {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+  width: 30%;
+}
+.center-menu .search-form form {
+  width: 80%;
+}
+.center-menu .search-form .input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.center-menu .search-form form input {
+  flex: 1;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  text-indent: 10px;
+}
+.center-menu .search-form .search-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.icon-search {
+  width: 20px;
+  stroke-width: 3px;
+}
+.main-menu {
+  background-color: #ffffff;
+}
+
+.main-menu nav ul {
+  display: flex;
+  justify-content: center;
+}
+.main-menu nav ul li {
+  padding: 10px;
+}
+.main-menu nav ul li a {
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
