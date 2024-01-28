@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: 18%;
+}
+
+.title {
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.05em;
+  text-transform: uppercase;
+}
+
+.red-list {
+  background: #ed1c24;
+  display: block;
+  height: 3px;
+  margin: 1em 0px;
+  max-width: 30px;
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  height: 300px;
+}
+
+li {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-top: 9px;
+  padding-bottom: 4px;
+  justify-content: space-between;
+}
+
+.container-sidebar-produk-lainnya {
+  padding-bottom: 9px;
+}
+
+.container-sidebar-grosir {
+  border: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding-right: 8.5rem;
+}
