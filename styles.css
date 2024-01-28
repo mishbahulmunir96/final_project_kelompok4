@@ -16,7 +16,7 @@ a {
   color: red;
 }
 .header .main-menu nav ul li a::after {
-  content: "";
+  content: '';
   display: block;
   padding-bottom: 0.5rem;
   border-bottom: 0.2rem solid red;
@@ -132,4 +132,94 @@ a {
   color: #000;
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+/* Style Homepage */
+img {
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.image1 {
+  width: 1020;
+  height: 538;
+  margin-top: 5px;
+  margin-left: 110px;
+}
+
+.image2 {
+  width: 1020;
+  height: 538;
+  margin-top: 30px;
+  margin-left: 110px;
+  position: relative;
+}
+
+.image3 {
+  width: 1020;
+  height: 538;
+  margin-top: 25px;
+  margin-left: 110px;
+  position: relative;
+}
+
+.text-inner1 {
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  top: 73%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #fff;
+}
+
+.text-inner2 {
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #fff;
+}
+
+h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 400;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: sans-serif;
+}
+
+.btn-shop {
+  border: 2px solid;
+  color: white;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.97em;
+  font-weight: bolder;
+  letter-spacing: 0.03em;
 }
