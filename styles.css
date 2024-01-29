@@ -12,9 +12,11 @@ li {
 a {
   text-decoration: none;
 }
+
 .header .main-menu nav ul li a:hover {
   color: red;
 }
+
 .header .main-menu nav ul li a::after {
   content: "";
   display: block;
@@ -23,6 +25,7 @@ a {
   transform: scaleX(0);
   transition: 0.2s linear;
 }
+
 .header .main-menu nav ul li a:hover::after {
   transform: scaleX(1);
 }
@@ -39,6 +42,7 @@ a {
 .top-menu .top-right-menu ul {
   display: flex;
 }
+
 .top-menu .top-left-menu ul li,
 .top-menu .top-right-menu ul li {
   padding: 0 5px;
@@ -58,12 +62,14 @@ a {
 .top-menu .top-right-menu ul li a {
   color: hsla(0, 0%, 40%, 0.85);
 }
+
 .icons {
   width: 15px;
   stroke-width: 3px;
   padding: 0 5px;
   vertical-align: middle;
 }
+
 .icon-cart {
   color: red;
   padding: 0 5px;
@@ -75,9 +81,11 @@ a {
   justify-content: flex-end;
   align-items: center;
 }
+
 .center-menu .logo {
   width: 30%;
 }
+
 .center-menu .logo img {
   width: 80%;
 }
@@ -88,14 +96,17 @@ a {
   margin-right: 25px;
   width: 30%;
 }
+
 .center-menu .search-form form {
   width: 80%;
 }
+
 .center-menu .search-form .input-container {
   position: relative;
   display: flex;
   align-items: center;
 }
+
 .center-menu .search-form form input {
   flex: 1;
   height: 30px;
@@ -104,6 +115,7 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.09);
   text-indent: 10px;
 }
+
 .center-menu .search-form .search-button {
   position: absolute;
   top: 50%;
@@ -113,10 +125,12 @@ a {
   border: none;
   cursor: pointer;
 }
+
 .icon-search {
   width: 20px;
   stroke-width: 3px;
 }
+
 .main-menu {
   background-color: #ffffff;
 }
@@ -125,9 +139,11 @@ a {
   display: flex;
   justify-content: center;
 }
+
 .main-menu nav ul li {
   padding: 10px;
 }
+
 .main-menu nav ul li a {
   color: #000;
   font-size: 0.9rem;
@@ -195,6 +211,7 @@ a {
   transform: translateY(-5px);
   cursor: grab;
 }
+
 .gambar2:hover {
   opacity: 1;
   cursor: grab;
@@ -205,6 +222,7 @@ a {
   -o-transition: all 0.3s ease-in-out;
   transform: translateY(-5px);
 }
+
 .gambar3:hover {
   opacity: 1;
   cursor: grab;
@@ -215,6 +233,7 @@ a {
   -o-transition: all 0.3s ease-in-out;
   transform: translateY(-5px);
 }
+
 .gambar4:hover {
   opacity: 1;
   cursor: grab;
@@ -326,6 +345,7 @@ a {
   margin-top: 40px;
   font-size: 14px;
 }
+
 .kategory {
   border-top: 1px dotted #ddd;
   display: block;
@@ -399,6 +419,7 @@ a {
   -o-transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+
 .minus:hover {
   background-color: rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-in-out;
@@ -467,10 +488,12 @@ a {
   .main {
     padding: 30px 10px;
   }
+
   .container_image {
     max-width: 480px;
     position: relative;
   }
+
   .image_sec {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -491,6 +514,7 @@ a {
     position: block;
     width: 100%;
   }
+
   .judul_paragraf {
     max-width: 450px;
   }
@@ -500,10 +524,12 @@ a {
   .main {
     padding: 30px 10px;
   }
+
   .container_image {
     max-width: 450px;
     position: relative;
   }
+
   .image_sec {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -524,18 +550,22 @@ a {
     position: block;
     width: 100%;
   }
+
   .judul_paragraf {
     max-width: 450px;
   }
 }
+
 @media (max-width: 924px) {
   .main {
     padding: 30px 20px;
   }
+
   .container_image {
     max-width: 100%;
     position: relative;
   }
+
   .image_sec {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -543,28 +573,35 @@ a {
     overflow: hidden;
     gap: 25px;
   }
+
   .image_sec > img {
     width: 200px;
     height: 100px;
     opacity: 0.5;
     margin-bottom: -5px;
     background-position: top;
-    object-fit: cover; /* Untuk memastikan bahwa gambar tetap sesuai dengan ukuran tanpa merubah rasio aspek */
-    object-position: top; /* Untuk memposisikan objek (gambar) di tengah ke atas */
+    object-fit: cover;
+    /* Untuk memastikan bahwa gambar tetap sesuai dengan ukuran tanpa merubah rasio aspek */
+    object-position: top;
+    /* Untuk memposisikan objek (gambar) di tengah ke atas */
     max-width: 100%;
   }
+
   .main_gambar {
     height: 490px;
     position: block;
     max-width: 100%;
   }
+
   .judul_paragraf {
     max-width: 450px;
   }
+
   .container_judul {
     position: absolute;
     margin-top: 620px;
   }
+
   .judul_paragraf {
     max-width: 800px;
   }
@@ -573,7 +610,6 @@ a {
 /* Footer */
 
 .element {
-  margin-top: 400px;
   height: 530px;
   background-color: #aa0e0f; /* Ganti dengan warna latar yang diinginkan */
   color: #fff; /* Ganti dengan warna teks yang sesuai */
@@ -649,6 +685,7 @@ a {
     gap: 200px;
   }
 }
+
 @media screen and (max-width: 850px) {
   .background-image {
     display: flex;
