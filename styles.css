@@ -12,9 +12,6 @@ li {
 a {
   text-decoration: none;
 }
-.select {
-  font-color: red;
-}
 .header .main-menu nav ul li a:hover {
   color: red;
 }
