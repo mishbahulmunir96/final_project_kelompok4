@@ -9,16 +9,16 @@ function showqv(idqv) {
 function hideqv(idqv) {
   document.getElementById("quickview" + idqv).classList.add("hidden");
   document.getElementById("quickview" + idqv).classList.remove("absolute");
-
+  s;
   document.getElementById("love" + idqv).classList.add("hidden");
   document.getElementById("love" + idqv).classList.remove("absolute");
 }
 
 function showlove(idl) {
-  document.getElementById("imglove" + idl).src = "src/img/love-badge2.png";
+  document.getElementById("imglove" + idl).src = "images/love-badge2.png";
 }
 function hidelove(idl) {
-  document.getElementById("imglove" + idl).src = "src/img/love-badge.png";
+  document.getElementById("imglove" + idl).src = "images/love-badge.png";
 }
 
 function krjover(idk) {
